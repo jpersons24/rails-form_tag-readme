@@ -1,8 +1,10 @@
 class PostsController < ApplicationController
+  # action 'index' for '/posts'
   def index
     @posts = Post.all
   end
 
+  # action 'new' for '/posts/new'
   def new 
   end
 
@@ -12,3 +14,4 @@ class PostsController < ApplicationController
   end
   
 end
+
